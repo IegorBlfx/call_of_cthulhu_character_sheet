@@ -1,16 +1,24 @@
 # call_of_cthulhu_character_sheet
 
-A new Flutter project.
+# Character and Monster Generator for "Call of Cthulhu" (7th Edition)
 
-## Getting Started
+## Project Description
 
-This project is a starting point for a Flutter application.
+This project is an application for creating characters and monsters for the tabletop role-playing game "Call of Cthulhu" 7th Edition. The application simplifies the process of generating and managing characters, allowing players to quickly customize their gaming experiences. It provides the ability to create new characters with unique attributes, skills, and abilities, as well as generate monsters with a variety of parameters and properties.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Character Creation:** Easy customization and generation of characters according to the rules of the 7th Edition of "Call of Cthulhu."
+- **Monster Generation:** Create and customize monsters using available templates and options.
+- **Save and Load:** Ability to save created characters and monsters for future use.
+- **Editing:** User-friendly interface for editing character and monster attributes.
+- **Intuitive Interface:** Simple and user-friendly interface for quick access to all features.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Usage
+
+Once the application is running, you can start creating characters and monsters by selecting the appropriate options in the menu. The application offers a variety of templates and settings to ease the generation process.
+The scheme of the application is given below:
+
+(https://![Call_Of_Cthulhu_Character_Sheet](https://github.com/user-attachments/assets/efdd34dc-ad78-4864-b24d-494686166327)
+
+
