@@ -19,6 +19,6 @@ This project is an application for creating characters and monsters for the tabl
 Once the application is running, you can start creating characters and monsters by selecting the appropriate options in the menu. The application offers a variety of templates and settings to ease the generation process.
 The scheme of the application is given below:
 
-(https://![Call_Of_Cthulhu_Character_Sheet](https://github.com/user-attachments/assets/efdd34dc-ad78-4864-b24d-494686166327)
+![Call_Of_Cthulhu_Character_Sheet](https://github.com/user-attachments/assets/efdd34dc-ad78-4864-b24d-494686166327)
 
 
