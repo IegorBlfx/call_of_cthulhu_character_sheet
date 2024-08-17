@@ -14,9 +14,10 @@ class ImageMain extends StatelessWidget {
     );
   }
 }
-class ImageScreenBorderLeft extends StatelessWidget{
+
+class ImageScreenBorderLeft extends StatelessWidget {
   const ImageScreenBorderLeft({super.key});
-  
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -25,9 +26,9 @@ class ImageScreenBorderLeft extends StatelessWidget{
   }
 }
 
-class ImageScreenBorderRight extends StatelessWidget{
+class ImageScreenBorderRight extends StatelessWidget {
   const ImageScreenBorderRight({super.key});
-  
+
   @override
   Widget build(BuildContext context) {
     return Container(
