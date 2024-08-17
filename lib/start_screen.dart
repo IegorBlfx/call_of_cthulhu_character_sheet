@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import './common/ui/pallete/app_theme.dart';
-import './common/ui/widgets/image_main.dart';
-import './common/ui/widgets/buttons.dart';
+import 'common/ui/widgets/images/image_start_screen_logo.dart';
+import 'common/ui/widgets/buttons/button_start_screen.dart';
 
 class StartScreen extends StatelessWidget {
   const StartScreen({super.key});
@@ -18,7 +18,7 @@ class StartScreen extends StatelessWidget {
         ),
         body: const Center(
             child: Column(children: [
-          Expanded(flex: 1, child: ImageMain()),
+          Expanded(flex: 1, child: ImageStartScreenLogo()),
           SizedBox(
             height: 20,
           ),
@@ -34,15 +34,15 @@ class StartScreen extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                  ButtonMain("Create new Hero"),
+                  ButtonStartScreen("Create new Hero"),
                   SizedBox(
                     height: 15,
                   ),
-                  ButtonMain("Create new Creature"),
+                  ButtonStartScreen("Create new Creature"),
                   SizedBox(
                     height: 15,
                   ),
-                  ButtonMain("My Archive")
+                  ButtonStartScreen("My Archive")
                 ],
               ))
         ])));

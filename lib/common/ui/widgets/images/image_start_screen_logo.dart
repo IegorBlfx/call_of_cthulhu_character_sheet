@@ -1,7 +1,7 @@
 import "package:flutter/material.dart";
 
-class ImageMain extends StatelessWidget {
-  const ImageMain({super.key});
+class ImageStartScreenLogo extends StatelessWidget {
+  const ImageStartScreenLogo({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,28 +11,6 @@ class ImageMain extends StatelessWidget {
       //width: MediaQuery.of(context).size.width/2,
 
       child: Image.asset('lib/common/ui/images/main_logo.jpg'),
-    );
-  }
-}
-
-class ImageScreenBorderLeft extends StatelessWidget {
-  const ImageScreenBorderLeft({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      child: Image.asset('lib/common/ui/images/border_left'),
-    );
-  }
-}
-
-class ImageScreenBorderRight extends StatelessWidget {
-  const ImageScreenBorderRight({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      child: Image.asset('lib/common/ui/images/border_right'),
     );
   }
 }

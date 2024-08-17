@@ -1,8 +1,10 @@
+// ignore_for_file: non_constant_identifier_names
+
 import "package:flutter/material.dart";
 
-class ButtonMain extends StatelessWidget {
-  final String buttonMainText;
-  const ButtonMain(this.buttonMainText, {super.key});
+class ButtonStartScreen extends StatelessWidget {
+  final String ButtonStartScreenText;
+  const ButtonStartScreen(this.ButtonStartScreenText, {super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +22,7 @@ class ButtonMain extends StatelessWidget {
           ),
           onPressed: () {},
           child: Text(
-            buttonMainText,
+            ButtonStartScreenText,
             style: const TextStyle(fontSize: 25.0),
           ),
         ));
