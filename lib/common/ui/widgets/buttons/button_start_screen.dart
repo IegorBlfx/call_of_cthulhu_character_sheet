@@ -1,10 +1,11 @@
-// ignore_for_file: non_constant_identifier_names
-
 import "package:flutter/material.dart";
 
 class ButtonStartScreen extends StatelessWidget {
-  final String ButtonStartScreenText;
-  const ButtonStartScreen(this.ButtonStartScreenText, {super.key});
+  final String buttonStartScreenText;
+  const ButtonStartScreen(this.buttonStartScreenText,
+      {super.key,
+      required this.routeToNextScreen}); //{super.key, required this.routeToNextScreen});
+  final Widget routeToNextScreen;
 
   @override
   Widget build(BuildContext context) {
@@ -20,9 +21,14 @@ class ButtonStartScreen extends StatelessWidget {
             surfaceTintColor:
                 const WidgetStatePropertyAll(Color.fromARGB(255, 72, 66, 66)),
           ),
-          onPressed: () {},
+          onPressed: () {
+            (Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => routeToNextScreen),
+            ));
+          },
           child: Text(
-            ButtonStartScreenText,
+            buttonStartScreenText,
             style: const TextStyle(fontSize: 25.0),
           ),
         ));

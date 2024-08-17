@@ -10,5 +10,3 @@ class ImageStartScreenBorderLeft extends StatelessWidget {
     );
   }
 }
-
-
